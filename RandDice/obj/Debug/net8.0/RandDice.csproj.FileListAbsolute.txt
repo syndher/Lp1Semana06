@@ -1,0 +1,15 @@
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\bin\Debug\net8.0\RandDice.exe
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\bin\Debug\net8.0\RandDice.deps.json
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\bin\Debug\net8.0\RandDice.runtimeconfig.json
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\bin\Debug\net8.0\RandDice.dll
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\bin\Debug\net8.0\RandDice.pdb
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.AssemblyInfoInputs.cache
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.AssemblyInfo.cs
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.csproj.CoreCompileInputs.cache
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.sourcelink.json
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.dll
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\refint\RandDice.dll
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.pdb
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\RandDice.genruntimeconfig.cache
+C:\Users\Migue\Desktop\Lp1Semana06\RandDice\obj\Debug\net8.0\ref\RandDice.dll

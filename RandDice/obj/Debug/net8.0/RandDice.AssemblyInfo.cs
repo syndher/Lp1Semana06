@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RandDice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12bdafd3466cec5b080cba46a5f30937970dcb46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+617b76a474504deeb897bbe5ec7b5a77dd5d1815")]
 [assembly: System.Reflection.AssemblyProductAttribute("RandDice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RandDice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
