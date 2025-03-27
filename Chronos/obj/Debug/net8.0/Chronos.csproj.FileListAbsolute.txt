@@ -1,0 +1,15 @@
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.AssemblyInfoInputs.cache
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.AssemblyInfo.cs
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.csproj.CoreCompileInputs.cache
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.sourcelink.json
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\bin\Debug\net8.0\Chronos.exe
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\bin\Debug\net8.0\Chronos.deps.json
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\bin\Debug\net8.0\Chronos.runtimeconfig.json
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\bin\Debug\net8.0\Chronos.dll
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\bin\Debug\net8.0\Chronos.pdb
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.dll
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\refint\Chronos.dll
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.pdb
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\Chronos.genruntimeconfig.cache
+C:\Users\Migue\Desktop\Lp1Semana06\Chronos\obj\Debug\net8.0\ref\Chronos.dll
