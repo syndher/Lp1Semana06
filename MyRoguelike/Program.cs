@@ -16,11 +16,11 @@ namespace MyRoguelike
             lvl.SetEnemyInRoom(59, new Enemy("Garrus Vakarian"));
             lvl.SetEnemyInRoom(99, new Enemy("Joker"));
 
-            Console.WriteLine((object?)$"Toughness: {lvl.GetToughness()}");
+            Console.WriteLine((object?)$"Toughness: {lvl.GetToughness(4)}");
 
-            Console.WriteLine($"Number of rooms: {lvl.GetNumRooms()}");
+            Console.WriteLine($"Number of rooms: {lvl.GetNumRooms(125)}");
 
-            Console.WriteLine($"Number of enemies: {lvl.GetNumEnemies()}");
+            Console.WriteLine($"Number of enemies: {lvl.GetNumEnemies(6)}");
 
             lvl.PrintEnemies();
 

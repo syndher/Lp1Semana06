@@ -57,7 +57,7 @@
             }
         }
 
-        enum Toughness
+        public enum Toughness
         {
             VeryEasy,
             Easy,

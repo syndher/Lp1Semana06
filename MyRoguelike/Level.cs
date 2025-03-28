@@ -1,8 +1,9 @@
-﻿namespace MyGame
+﻿using Humanizer;
+
+namespace MyGame
 {
-    public class Level
+    public class Level(int lvl, Enemy.Toughness toughness)
     {
-        
         public int GetNumRooms(int lvl)
         {
             lvl = int.Parse(args[0]);
@@ -15,20 +16,29 @@
             return lvl;
         }
 
-        public string GetNumEnemies(string enemy)
+        public string GetNumEnemies(int enemy)
         {
             return enemy;
         }
 
-        public string GetToughness(string enemytoughness)
+        public string GetToughness(int toughness)
         {
-            return enemytoughness;
+            return Enemy.Toughness;
         }
 
-        public string SetEnemyInRoom()
+        public void SetEnemyInRoom(int room, string enemy)
         {
-            
+            string order = room.ToOrdinalWords();
+            return Console.Write($"{order} room: {enemy}")
+                
         }
+        public string PrintEnemies()
+        {
+            return Console.Write($"{order} room: {enemy}")
+        }
+
+        
+        
         
         
 
