@@ -39,7 +39,7 @@ namespace MyGame
         }
         public void SetName(string newName)
         {
-            if (newName.Length > 8) newName = newName.Substring(0, 8)
+            if (newName.Length > 8) newName = newName.Substring(0, 8);
             name = newName;
         }
     }

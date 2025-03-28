@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj": {}
+    "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj": {
+    "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj",
+        "projectUniqueName": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj",
         "projectName": "Chronos",
-        "projectPath": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj",
-        "packagesPath": "C:\\Users\\Migue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\Chronos\\obj\\",
+        "projectPath": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\Chronos\\Chronos.csproj",
+        "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\Chronos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

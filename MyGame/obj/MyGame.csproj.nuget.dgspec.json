@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj": {}
+    "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj": {
+    "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj",
+        "projectUniqueName": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj",
         "projectName": "MyGame",
-        "projectPath": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj",
-        "packagesPath": "C:\\Users\\Migue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Migue\\Desktop\\Lp1Semana06\\MyGame\\obj\\",
+        "projectPath": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\MyGame\\MyGame.csproj",
+        "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miguel\\Desktop\\Lp1Semana06\\MyGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
