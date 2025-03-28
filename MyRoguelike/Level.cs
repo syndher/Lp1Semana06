@@ -10,31 +10,30 @@ namespace MyGame
             return lvl;
         }
         
-        public string Difficulty(string lvl)
+        public int Difficulty(int lvl)
         {
-            lvl = args[1];
             return lvl;
         }
 
-        public string GetNumEnemies(int enemy)
+        public int GetNumEnemies(int enemyCounter)
         {
-            return enemy;
+            return enemyCounter;
         }
 
-        public string GetToughness(int toughness)
+        public string GetToughness(Enemy.Toughness toughness)
         {
-            return Enemy.Toughness;
+            return toughness;
         }
 
         public void SetEnemyInRoom(int room, string enemy)
         {
             string order = room.ToOrdinalWords();
-            return Console.Write($"{order} room: {enemy}")
-                
+
         }
         public string PrintEnemies()
         {
-            return Console.Write($"{order} room: {enemy}")
+            Console.WriteLine(Enemy.Toughness);
+                
         }
 
         
