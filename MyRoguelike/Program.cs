@@ -1,4 +1,5 @@
 ﻿using System;
+using MyGame;
 
 namespace MyRoguelike
 {
@@ -6,7 +7,7 @@ namespace MyRoguelike
     {
         private static void Main()
         {
-            Level lvl = new Level(125, Toughness.Nightmare);
+            Level lvl = new Level(125, Enemy.Toughness.Nightmare);
 
             lvl.SetEnemyInRoom(0, new Enemy("Urdnot Wrex"));
             lvl.SetEnemyInRoom(120, new Enemy("Commander Shepard"));
@@ -15,7 +16,7 @@ namespace MyRoguelike
             lvl.SetEnemyInRoom(59, new Enemy("Garrus Vakarian"));
             lvl.SetEnemyInRoom(99, new Enemy("Joker"));
 
-            Console.WriteLine($"Toughness: {lvl.GetToughness()}");
+            Console.WriteLine((object?)$"Toughness: {lvl.GetToughness()}");
 
             Console.WriteLine($"Number of rooms: {lvl.GetNumRooms()}");
 

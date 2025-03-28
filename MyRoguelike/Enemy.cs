@@ -57,11 +57,15 @@
             }
         }
 
-        public enum Toughness
+        enum Toughness
         {
-            VeryEasy, Easy, Normal, Tough, Nightmare
+            VeryEasy,
+            Easy,
+            Normal,
+            Tough,
+            Nightmare
         }
-            
-        
+
+
     }
 }
