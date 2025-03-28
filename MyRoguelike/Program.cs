@@ -1,53 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace MyRoguelike
 {
     public class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
+            Level lvl = new Level(125, Toughness.Nightmare);
 
-            List<Enemy> enemies = new List<Enemy>();
-            for (int i = 0; i < int.Parse(args[0]); i++)
-            {
-                Console.Write($"Nome do inimigo {i+1}: ");
-                string input = Console.ReadLine();
-                enemies.Add(new Enemy(input));
-            }
-            
-            foreach (Enemy enemy in enemies)
-            {
-                Console.WriteLine($"{enemy.GetName()} {enemy.GetHealth()} {enemy.GetShield()}");
-            }
-            
-            enemies[0].TakeDamage(50);
-            
-            foreach (Enemy enemy in enemies)
-            {
-                Console.WriteLine($"{enemy.GetName()} {enemy.GetHealth()} {enemy.GetShield()}");
-            }
-            
-            enemies[1].PickPowerUp(PowerUp.HEALTH, 50);
-            enemies[0].PickPowerUp(PowerUp.SHIELD, 9.5f);
-            
-            foreach (Enemy enemy in enemies)
-            {
-                Console.WriteLine($"{enemy.GetName()} {enemy.GetHealth()} {enemy.GetShield()}");
-            }
-            
-            
-            Console.WriteLine($"Número de powerups usados: {Enemy.GetPowerUpCount()}");
-            
-        }
-        
-        public enum PowerUp {
-            HEALTH, SHIELD
-        }
+            lvl.SetEnemyInRoom(0, new Enemy("Urdnot Wrex"));
+            lvl.SetEnemyInRoom(120, new Enemy("Commander Shepard"));
+            lvl.SetEnemyInRoom(41, new Enemy("Liara T'Soni"));
+            lvl.SetEnemyInRoom(13, new Enemy("Tali'Zorah"));
+            lvl.SetEnemyInRoom(59, new Enemy("Garrus Vakarian"));
+            lvl.SetEnemyInRoom(99, new Enemy("Joker"));
 
-        public enum Toughness
-        {
-            Very Easy, Easy, Normal, Tough, Nightmare
+            Console.WriteLine($"Toughness: {lvl.GetToughness()}");
+
+            Console.WriteLine($"Number of rooms: {lvl.GetNumRooms()}");
+
+            Console.WriteLine($"Number of enemies: {lvl.GetNumEnemies()}");
+
+            lvl.PrintEnemies();
+
+            // Este programa mostra o seguinte no ecrã:
+            //
+            // Toughness: Nightmare
+            // Number of rooms: 125
+            // Number of enemies: 6
+            // Zeroth room: Urdnot Wrex
+            // Thirteenth room: Tali'Zorah
+            // Forty-First room: Liara T'Soni
+            // Fifty-Ninth room: Garrus Vakarian
+            // Ninety-Ninth room: Joker
+            // Hundred and Twentieth room: Commander Shepard
         }
     }
 }

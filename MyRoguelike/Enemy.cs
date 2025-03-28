@@ -56,6 +56,12 @@
                 if (health < 0) health = 0;
             }
         }
+
+        public enum Toughness
+        {
+            VeryEasy, Easy, Normal, Tough, Nightmare
+        }
+            
         
     }
 }
